@@ -1,0 +1,135 @@
+html, body {
+	background: linear-gradient(#002, #000008);
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI";
+	height: 100%;
+	background-attachment: fixed;
+	color: white;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+br {
+	line-height: 12px;
+}
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+textarea {
+	resize: none;
+	width: 90%;
+}
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+.header {
+	background: linear-gradient(#009, #006);
+	height: 70px;
+	border-bottom: 1px solid;
+	position: relative;
+	z-index: 1;
+}
+.header table {
+	table-layout: fixed;
+	width: 100%;
+	border-spacing: 3px;
+}
+.header td {
+	background: linear-gradient(#005, #008);
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 3px;
+	height: 64px;
+}
+.header-button {
+	font-size: 24px;
+}
+.center {
+	text-align: center;
+}
+.content {
+	padding: 0 15px 0 15px;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+	background: linear-gradient(#222, black);
+	color: white;
+	height: 15%;
+	min-height: 48px;
+	max-height: 96px;
+	bottom: 0;
+	line-height: 100%;
+	z-index: 1;
+}
+.spacer {
+	background-color: transparent;
+	color: transparent;
+	height: 20%;
+	min-height: 64px;
+	max-height: 128px;
+	line-height: 100%;
+}
+.remove {
+	color: red;
+	font-size: 20px;
+}
+.users {
+	border: 1px solid;
+	width: 100%;
+	min-width: 450px;
+	max-width: 600px;
+	table-layout: fixed;
+	margin: 0 auto;
+	background: black;
+}
+.users th {
+	background: linear-gradient(#00A, #007);
+	border: 1px solid white;
+}
+.users td {
+	background: linear-gradient(#009, #006);
+	border: 1px solid white;
+}
+.users input {
+	width: 100%;
+}
+.msg {
+	table-layout: fixed;
+	width: 100%;
+}
+.msg td {
+	width: 50%;
+	vertical-align: top;
+}
+.sidebar {
+	background: linear-gradient(to right, #009, #005);
+	width: 15%;
+	position: fixed;
+	left: 0; top: 0;
+	padding-top: 71px;
+	padding-left: 10px;
+	height: 100%;
+	border-right: 1px solid;
+}
+.sidebar td {
+	cursor: pointer;
+}
+.task {
+	width: 85%;
+	position: relative;
+	left: 15%;
+}
+.task table {
+	margin: 0 auto;
+}
+.task textarea {
+	width: 65%;
+}
